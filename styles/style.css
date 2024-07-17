@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+
+
+/* shared any-other */
+.display-flex{
+    display: flex;
+}
+.paragraph{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+
+
+
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px; 
+background: rgb(255, 144, 14);
+padding: 21px 25px;
+border: none;
+
+}
+.text{
+
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 32px;
+   
+ 
+    
+
+
+
+}
+
+/* header */
+.main-header{
+    background-color: rgba(255, 144, 14, 0.1);
+
+
+max-width: 100vw;
+height: 1400px;
+
+
+    
+}
+.image-container-items{
+
+
+text-align: center;
+width: 862px;
+height: 225px;
+
+
+
+  
+}
+.image-container{
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+   
+}
+.image-container-content{
+    margin-top: 250px;
+
+}
+.image-container-content > img {
+    width: 100%;
+}
+
+
+/* nav styled */
+.main-navigation{
+
+     align-items: center;
+ justify-content: space-between;
+ width: 1400px;
+   margin: 0 auto;
+
+
+     
+    
+
+}
+
+
+
+.section-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+ 
+    
+    
+}
+.nav-link{
+    
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link > a{
+
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+
+}
+.font-size-64{
+
+  font-size: 4rem;
+
+
+
+
+}
+
+
+@media screen and (max-width:576px) {
+ .main-navigation{
+   
+    flex-direction: column;
+    width: 400px;
+    
+ }
+ .section-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+
+ 
+    
+    
+}
+.image-container-items{
+
+
+    text-align: center;
+    width: 362px;
+    height: 225px;
+    
+    
+    
+      
+    }
+
+
+
+    .styled-list {
+
+        
+
+      flex-direction: column;
+
+
+    
+
+
+
+
+
+    }
+
+
+
+    
+}
+
+
+
+/* footer */
